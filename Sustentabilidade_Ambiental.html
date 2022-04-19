@@ -7,18 +7,18 @@
     <meta name="description" content="site sobre sustentabilidade">
     <meta name="keywords" content="sustentabilidade,sustentavel">
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-    <script type="text/javascript" src="./public/galeria.js"></script>
+    
     
 </head>
 
 <body>
 <header class="header-top">
-    <a href="Sustentabilidade.html"><img id="icon" src="images/icon2.png" alt="imagem de icone" ></a>
+    <a href="Sustentabilidade.html"><img id="icon" src="images/icon_final.png" alt="imagem de icone" ></a>
     <nav class="header-nav">
         <ul class="menu-header">
             <li><a href='Sustentabilidade.html'>Visão Geral</a></li>
             <li><a href='Sustentabilidade_Ambiental.html'>Sustentabilidade Ambiental</a></li>
-            <li><a href='#'>Sustentabilidade Social</a></li>
+            <li><a href='Sustentabilidade_social.html'>Sustentabilidade Social</a></li>
             <li><a href='#'>Sustentabilidade Empresarial</a></li>
             <li id="s_e"><a  href='#'>Sustentabilidade Econômica</a></li>
             </ul>
@@ -56,44 +56,36 @@
         <li>repensar hábitos de consumo e consumir de forma mais sustentável;</li>
         <li>fazer compostagem para diminuir os resíduos orgânicos e produzir fertilizantes naturais.</li>
     </ul>
-    <div class="modal">
-        <div class="modal_content">
-            <img src="./images/10.jpg" id="modal_img">
+    <div class="row">
+        <div class="column">
+          <a href="#expandedImg"><img src="./images/Carro_sustentavel.jpg" alt="Carro de empresas elétricos para colaborar com a sustentabilidade" style="width:100%" onclick="myFunction(this);"></a>
         </div>
-    </div>
-    <span id="bt_close">&times;</span>
-    <div class="container">
-        <div class="row">
-            <div class="card_img">
-                <img src="./images/10.jpg" class="small_img" alt="imagem exemplo">
-            </div>
-            <div class="card_img">
-                <img src="./images/icon2.png" class="small_img" alt="imagem exemplo">
-            </div>
-            <div class="card_img">
-                <img src="./images/landingpage.png" class="small_img"  alt="imagem exemplo">
-            </div>
+        <div class="column-div">
+        <img src="./images/icon2.png" alt="Lixeiras de coleta seletiva para facilitar a reciclagem" style="width:100%">
         </div>
-        <div class="row">
-            <div class="card_img">
-                <img src="./images/Carro_sustentavel.jpg" class="small_img" alt="imagem exemplo">
-            </div>
-            <div class="card_img">
-                <img src="./images/icon2.png" class="small_img" alt="imagem exemplo">
-            </div>
-            <div class="card_img">
-                <img src="./images/landingpage.png" class="small_img" alt="imagem exemplo">
-            </div>
+        <div class="column">
+            <a href="#expandedImg"><img src="./images/exemplos-de-sustentabilidade.png" alt="Meio de transporte mais agradável ao meio ambiente como bicicletas" style="width:100%" onclick="myFunction(this);"></a>
         </div>
-    </div>
+        <div class="column">
+            <a href="#expandedImg"><img src="./images/04.jpg" alt="cu" style="width:100%" onclick="myFunction(this);"></a>
+        </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+    
 </article>
 
 
-</section>
+
 
 </main>
 <footer>
     <p>Desenvolvivo por Yuri Alves Lima</p>
 </footer>
 </body>
+<script type="text/javascript" src="./JS/teste.js"></script>
 </html>
